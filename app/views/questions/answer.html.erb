@@ -1,0 +1,18 @@
+<figure>
+  <blockquote class="blockquote">
+    <p><%= @question %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    You
+  </figcaption>
+</figure>
+<figure>
+  <blockquote class="blockquote">
+    <p><%= @answer %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Stupid Coach
+  </figcaption>
+</figure>
+
+<%= link_to "Ask a new question", ask_path , class: ["btn", "btn-primary"] %>
